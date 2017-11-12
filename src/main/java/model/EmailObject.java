@@ -14,7 +14,6 @@ public class EmailObject {
     private Date date;
     private String[] type;
 
-
     public String getSender() {
         return sender;
     }
@@ -99,4 +98,8 @@ public class EmailObject {
     public void setDate(Date date) {
         this.date = date;
     }
+    public void setDate(String date) {
+
+    }
+
 }
